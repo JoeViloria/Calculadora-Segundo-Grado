@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    background: #fcecdd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+}
+
+.main h1 {
+    margin: 30px 0px;
+    font-size: 4rem;
+    color:#ff6701;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+    font-family: 'Fredoka One', cursive;
+}
+
+.main span {
+    color: #ff6701;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.campo_coeficientes {
+    width: 75%;
+    height: 100%;
+    background: #fcecdd;
+    margin: 0px 0px 10px 0px;
+    border-radius: 5px;
+    border-color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.forma {
+    margin:40px auto 10px auto;
+}
+
+p {
+    color: #fea82f;
+    font-size: 1.3rem;
+}
+
+.btn {
+    display: flex;
+    padding: 8px 20px;
+    margin: 40px auto 20px auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    background: #ff6701;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.btn-1 {
+    display: flex;
+    padding: 8px 20px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff6701;
+    background-color: #fcecdd;
+    border: 2px solid #ff6701;
+    border-radius: 5px;
+}
+
+.btn-1:hover {
+    background-color: #ff6701;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.btn:hover {
+    background-color: #fea82f;
+}
+
+hr {
+	border-style: dotted;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	color: #ff6701;
+	border-width: 4px;
+	margin: 40px auto 30px auto;
+	width: 5%;
+}
+
+footer p {
+    color: #fea82f;
+    font-size: 1rem;
+    text-align: center;
+}
